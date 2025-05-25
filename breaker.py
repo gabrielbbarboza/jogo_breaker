@@ -94,7 +94,7 @@ def iniciar_jogo():
 
 def mostrar_tela_inicial():
     window.fill(BLACK)
-    desenhar_texto("BREAKAR", big_font, NEON_GREEN, width // 2, height // 3)
+    desenhar_texto("BREAKER", big_font, NEON_GREEN, width // 2, height // 3)
     desenhar_texto("Pressione ENTER para começar", font, GRAY, width // 2, height // 2)
     pygame.display.update()
 
